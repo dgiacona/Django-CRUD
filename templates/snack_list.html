@@ -1,5 +1,12 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block content %}
-  content
+
+<a>+ New Snack</a>
+<ul class="ml-2">
+    {% for snack in snack_list %}
+
+    {% endfor %}
+</ul>
+
 {% endblock content %}
