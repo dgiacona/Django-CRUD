@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  content
+  <h1 class="text-3xl font-bold mx-3 mt-2">Delete Snack</h1>
+
+  <form method="POST">
+    <p>Are you sure you want to delete "{{ snack.title }}"?</p>
+  </form>
 
 {% endblock content %}
